@@ -1,0 +1,87 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+  <link rel="stylesheet" href="Navbar.css"></link>
+  <link rel="icon" href="favicon.ico"></link>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body id="Body">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div id = "navdiv1" class="container-fluid">
+  <img class="image2" src="https://iocl.com/assets/images/logo.gif" class="navbar-brand">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navdiv" class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul  class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Home.jsp"><strong>Home</strong></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <strong>Booking</strong>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="nav-link active" aria-current="page" href="TrainingHall.jsp"><strong>Training Hall</strong></a></li>
+            <li><a class="nav-link active" aria-current="page" href="BoardRoom.jsp"><strong>Board Room</strong></a></li>
+            <li><a class="nav-link active" aria-current="page" href="MeetingRoom.jsp"><strong>Meeting Room 1</strong></a></li>
+            <li><a class="nav-link active" aria-current="page" href="MeetingRoomIS.jsp"><strong>Meeting Room-2</strong></a></li>
+            <li><a class="nav-link active" aria-current="page" href="MeetingRoomFINANCE.jsp"><strong>Meeting Room-3</strong></a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Availability.jsp"><strong>Availability</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="HistoryBackEnd.jsp"><strong>History</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="HallsCancellation.jsp"><strong>Cancellation</strong></a>
+        </li>
+        <li id="navli"><strong><a id="nava" class="nav-link active" aria-current="page" href="Login.jsp"><strong>Logout</strong></a></strong></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+       <center><marquee><strong><h1>Hall's</h1></strong></marquee></center>
+           <br></br>
+           <br></br>
+           <br></br>
+      <center>
+         <fieldset class="navfiel">
+               <legend class="leg"><strong>Board Room</strong></legend>
+           <div class="navdivv">           
+               <a href="BoardRoom.jsp"><img alt="Hulk" src="Board room.jpg" class="navimg"></a>   
+           </div>
+         </fieldset>
+         <fieldset class="navfiel">
+               <legend class="leg"><strong>Training Hall</strong></legend>
+           <div class="navdivv">           
+               <a href="TrainingHall.jsp"><img alt="Hulk" src="TrainingHall.jpg" class="navimg"></a>   
+           </div>
+         </fieldset>
+         <fieldset class="navfiel">
+               <legend class="leg"><strong>Meeting Room 1</strong></legend>
+           <div class="navdivv">           
+               <a href="MeetingRoom.jsp"><img alt="Hulk" src="MeetingRoom1.jpg" class="navimg"></a>   
+           </div>
+         </fieldset>
+         <fieldset class="navfiel">
+               <legend class="leg"><strong>Meeting Room-2</strong></legend>
+           <div class="navdivv">           
+               <a href="MeetingRoomIS.jsp"><img alt="Hulk" src="MeetingRoom-IS.jpg" class="navimg"></a>   
+           </div>
+         </fieldset>
+         <fieldset class="navfiel">
+               <legend class="leg"><strong>Meeting Room-3</strong></legend>
+           <div class="navdivv">           
+               <a href="MeetingRoomFINANCE.jsp"><img alt="Hulk" src="MeetingRoom-Finance.jpg" class="navimg"></a>   
+           </div>
+         </fieldset>
+       </center>
+</body>
+</html>

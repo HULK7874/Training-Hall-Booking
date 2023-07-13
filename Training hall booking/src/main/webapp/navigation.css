@@ -1,0 +1,61 @@
+#div-logo
+{
+	width: 18.5%;
+	height: 100px;
+	float: left;
+}
+#div-head
+{
+	width: 81.5%;
+	height: 100px;
+	float: right;
+}
+#navigation
+{
+/* div tag */
+    width:18.5%;
+    height:85%;
+    float:left;   
+}
+#ul1
+{
+/* provide properties for ul tag */
+color:red;
+font-size:25px;
+/*display:flex; */
+font-weight:bold;
+list-style-type:none;
+margin-top:0px;
+/* float:right; */
+font-style:italic;
+box-shadow: 0px 5px 10px Red;
+height: 95%
+}
+/*.list
+{
+background-color:pink;
+margin-right:50px;
+}*/
+.list a
+{
+color: black;
+text-decoration:none;
+margin: -10px;
+}
+.list:hover
+{
+	width:180px;
+    background-color:lime;
+    color:red;
+    border-radius:30px;
+    border-bottom:10px solid gold;
+}
+.list a:hover
+{
+    color:red;
+}
+#heading
+{
+    font-size:100px;
+    float:right;
+}
